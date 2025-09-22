@@ -6,7 +6,7 @@ import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 
 function Person() {
-  const BASE_URL = import.meta.env.VITE_BASE_API_URL + "/students";
+  const BASE_URL = import.meta.env.VITE_BASE_API_URL + "/student";
 
   //fake data
   // const [people, setPeople] = useState([
