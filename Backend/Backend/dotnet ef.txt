@@ -1,0 +1,7 @@
+** After creating models and adding dbcontext to create a database**
+dotnet ef migrations add InitialCreate
+                        (name of the migrations)
+
+** After initial migration ** 
+dotnet ef database update
+

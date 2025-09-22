@@ -1,0 +1,35 @@
+@base_address = http://localhost:3000/api/student
+
+POST {{base_address}}
+# {{Accept: application/json}}
+Content-Type: application/json
+
+{
+    "name" : "Sunny Thapa",
+    "age" : 21,
+    "gender": "F",
+    "enrolled_at": "2015-10-21"
+}
+
+###
+GET  {{base_address}}
+
+###
+GET  {{base_address}}/1
+
+###
+PUT  {{base_address}}/1
+# {{Accept: application/json}}
+Content-Type: application/json
+
+{
+    "Id":1,
+     "name" : "S Thapa",
+    "age" : 21,
+    "gender": "F",
+    "enrolled_at": "2015-10-21"
+}
+
+
+###
+DELETE {{base_address}}/1
